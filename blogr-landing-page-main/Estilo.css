@@ -1,0 +1,189 @@
+* {padding: 0;margin: 0;}
+
+header {
+    background-image: url(images/bg-pattern-intro.svg), -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
+    background-repeat: no-repeat, linear-gradient(90deg, #ff8f70, #ff3d54);
+    background-position: 25%;
+    border-radius: 0 0 0 80px;
+}
+
+header #hamburguesa {
+    display: none;
+}
+
+header #container-cabeza{
+    padding: 60px ;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+header #container-navegacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+header #container-navegacion #menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+header #container-navegacion #menu ul #lista > a {
+    display: block;
+    margin-right: 40px;
+    padding: 15px 0 15px 0;
+}
+
+header #container-navegacion #menu ul #lista > a img {
+    margin-left: 8px;
+}
+
+header #container-navegacion #menu ul #lista > a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+header #container-navegacion #menu ul #lista > a:hover img {
+    background-image: url(images/icon-arrow-light.svg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+header #container-navegacion #menu ul ul {
+    display: none;
+    background: #fff;
+    padding: 20px 30px 20px 15px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+header #container-navegacion #menu ul li:hover > ul {
+    display: block;
+    -webkit-box-shadow: 4px 25px 39px -3px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 25px 39px -3px rgba(0, 0, 0, 0.1);
+}
+
+header #container-navegacion #menu ul ul li {
+    width: 100px;
+    padding: 10px 20px;
+}
+
+header #container-navegacion #menu ul ul a {
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    display: block;
+}
+
+header #container-navegacion #menu ul ul a:hover {
+    font-weight: 500;
+}
+
+header #container-navegacion #menu ul a {
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header #container-navegacion #container-log {
+    margin-left: 160px;
+}
+
+header #container-navegacion #container-log a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    width: 60px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+header #container-cabeza #container-navegacion #container-log #login {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+header #container-cabeza #container-navegacion #container-log #login:hover {
+    background-color: white;
+    color: #ff3d54;
+}
+
+header #container-navegacion #signup {
+    color: #ff3d54;
+    background-color: white;
+}
+
+header #container-navegacion #signup:hover {
+    color: white;
+    background-color: #ff7a85;
+}
+header #titulos {
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+header #titulos #titulo-uno {
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+header #titulos #titulo-dos {
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+}
+
+header #titulos a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 22px;
+    border-radius: 25px;
+}
+
+header #titulos a:first-child {
+    background-color: white;
+    color: #ff3d54;
+}
+
+header #titulos a:first-child:hover {
+    color: white;
+    background-color: #ff7a85;
+}
+
+header #titulos a:last-child {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+header #titulos a:last-child:hover {
+    background-color: white;
+    color: #ff7a85;
+}
