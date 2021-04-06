@@ -122,21 +122,21 @@ header #container-navegacion #container-log a {
     text-align: center;
 }
 
-header #container-cabeza #container-navegacion #container-log #login {
+#login {
     color: rgba(255, 255, 255, 0.75);
 }
 
-header #container-cabeza #container-navegacion #container-log #login:hover {
+#login:hover {
     background-color: white;
     color: #ff3d54;
 }
 
-header #container-navegacion #signup {
+#signup {
     color: #ff3d54;
     background-color: white;
 }
 
-header #container-navegacion #signup:hover {
+#signup:hover {
     color: white;
     background-color: #ff7a85;
 }
