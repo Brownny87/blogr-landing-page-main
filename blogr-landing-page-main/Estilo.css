@@ -12,7 +12,7 @@ header #hamburguesa {
 }
 
 header #container-cabeza{
-    padding: 60px ;
+    padding: 60px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -36,6 +36,10 @@ header #container-navegacion {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+header #container-navegacion #menu {
+    margin-left: 60px;
 }
 
 header #container-navegacion #menu ul {
@@ -187,3 +191,13 @@ header #titulos a:last-child:hover {
     background-color: white;
     color: #ff7a85;
 }
+
+/* Responsive */
+/* @media screen and (max-width: 1000px) {
+    body {overflow-x: hidden;
+    }
+    
+    header #container-logos {
+        display
+    }
+} */
