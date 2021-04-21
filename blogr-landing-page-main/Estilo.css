@@ -1,6 +1,8 @@
 * {
     padding: 0;
     margin: 0;
+    font-size: 16px;
+    overflow-x: hidden;
 }
 
 header {
@@ -158,12 +160,14 @@ header .titulos .titulo-uno {
     font-family: 'Overpass', sans-serif;
     font-weight: 600;
     font-size: 50px;
+    padding: 40px;
 }
 
 header .titulos .titulo-dos {
     color: #fff;
     font-family: 'Overpass', sans-serif;
     font-weight: 300;
+    padding: 21px;
 }
 
 header .titulos a {
@@ -281,6 +285,10 @@ header .titulos a:last-child:hover {
 
     header .container-cabeza .container-navegacion .menu ul .lista>a {
         margin: 0;
+        color: hsla(208, 49%, 24%);
+    }
+
+    header .container-cabeza .container-navegacion .menu ul .lista a {
         color: hsla(208, 49%, 24%, 0.7);
         font-family: 'Overpass', sans-serif;
         font-weight: 600;
